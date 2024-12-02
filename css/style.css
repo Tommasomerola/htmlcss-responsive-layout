@@ -103,3 +103,34 @@ main{
         padding-left: 15px;
     }
 }
+
+
+/* versione desktop */
+@media screen and (min-width:992px) {
+    /* regole genrali */
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col-info ul{
+        display: block;
+        
+    }
+
+     /* regole parte main */
+     #info_ricetta h2 {
+        /* font-size: 40px; */
+        font-size: 2rem;
+    }
+
+
+    #info_ricetta .col_video {
+        width: 70%;
+    }
+
+    #info_ricetta .col_info {
+        width: 30%;
+    }
+
+}
