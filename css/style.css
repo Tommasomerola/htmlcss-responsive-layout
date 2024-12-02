@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f6f5f3;
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+
 /* regole header */
 
 header{
@@ -11,6 +16,7 @@ header{
 }
 
 #titolo{
+    font-family: "Nerko One";
     font-size: 14px;
     display: flex;
     justify-content: center;
@@ -81,6 +87,50 @@ main{
     padding: 5px 0;
 }
 
+/* regole section social */
+.lista-social{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    font-size: 25px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 999999px;
+}
+
+ul li{
+    list-style: none;
+}
+
+i span{
+    display: none;
+} 
+/* colori social */
+.fa-facebook{
+    color: #1a77f3;
+}
+.fa-twitter{
+    color: #009eff;
+}
+
+.fa-instagram{
+    color: #df7b92;
+
+}
+
+.fa-pinterest-p{
+    color: #e62224;
+
+}
+
+.fa-youtube{
+    color: #e62222;
+
+}
+
 
 /* versione tablet */
 @media screen and (min-width:768px){
@@ -102,6 +152,12 @@ main{
         justify-content: flex-start;
         padding-left: 15px;
     }
+
+    i{
+        font-size: 15px;
+        padding: 10px 50px;
+    }
+
 }
 
 
@@ -132,5 +188,20 @@ main{
     #info_ricetta .col_info {
         width: 30%;
     }
+
+      /* regole social */
+      i{
+        font-size: 10px;
+        padding: 10px 25px;
+    }
+
+    i span{
+        display: inline;
+        font-size: 10px;
+        color: black;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+
 
 }
