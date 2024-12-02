@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole header */
+
+header{
+    height: 100px;
+}
+
+#titolo{
+
+}
+
+/* regole main */
+
+main{
+    background-color: rgba(246,245,243,255);
+}
+
+.container{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.col-video{
+
+    /* DEBUG */
+    /* height: 100px;
+    background-color: red; */
+}
+
+.col-video img {
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.col-info{
+    background-color: #fff;
+
+    /* DEBUG */
+    /* height: 100px;
+    background-color: red; */
+}
