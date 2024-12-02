@@ -7,11 +7,14 @@
 /* regole header */
 
 header{
-    height: 100px;
+    /* height: 100px; */
 }
 
 #titolo{
-
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    color: rgba(255,150,20,255);
 }
 
 /* regole main */
@@ -25,6 +28,22 @@ main{
     margin: 30px auto;
 }
 
+#info-ricetta{
+    padding: 16px 0;
+}
+
+#info-ricetta h2{
+    color: rgba(78,57,105,255);
+    font-size: 24px;
+    padding: 10px 0;
+
+}
+
+#categoria{
+    font-size: 10px;
+    color: rgba(169,164,177,255);
+}
+
 .col-video{
 
     /* DEBUG */
@@ -34,14 +53,26 @@ main{
 
 .col-video img {
     width: 100%;
-    margin-bottom: 10px;
     display: block;
 }
 
 .col-info{
     background-color: #fff;
-
+    padding-bottom: 15px;
+    padding-left: 10px;
+    
     /* DEBUG */
     /* height: 100px;
     background-color: red; */
 }
+
+.col-info h3{
+    padding: 15px 0;
+}
+
+.col-info li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+
