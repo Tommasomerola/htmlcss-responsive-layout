@@ -137,6 +137,34 @@ i span{
     display: none;
 }
 
+/* regole section presentazione */
+
+hr{
+    width: 15%;
+    height: 2px;
+    background-color: #f7a01d;
+    margin: 20px 0;
+    border: none;
+}
+
+.img-presentation{
+    text-align: center;
+}
+
+
+.img-presentation img{
+    width: 60%;
+}
+
+.img-presentation p{
+    font-size: 20px;
+    color: #443a44;
+}
+
+.img-presentation strong{
+    color: black;
+}
+
 
 /* versione tablet */
 @media screen and (min-width:768px){
@@ -169,6 +197,25 @@ i span{
       #banner{
         display: inline-block;
     }
+
+    /* regole float */
+    .img-presentation img{
+        width: 40%;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .img-presentation p{
+        text-align: left;
+    }
+
+    .img-presentation::after{
+        display: table;
+        content: "";
+        clear: both;
+
+    }
+
 
 }
 
