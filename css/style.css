@@ -101,8 +101,9 @@ i{
     border-radius: 999999px;
 }
 
-ul li{
+.lista-social li{
     list-style: none;
+    width: 30%;
 }
 
 i span{
@@ -163,6 +164,32 @@ hr{
 
 .img-presentation strong{
     color: black;
+}
+
+/* regole footer */
+
+footer{
+    background-color: #7c69a4;
+    line-height: 30px;
+    padding: 25px 30px;
+    color: white;
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+footer a{
+    color: white;
+    margin: 10px;
+
 }
 
 
